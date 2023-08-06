@@ -11,11 +11,12 @@ return (
       tipe = "text"
       name = "search"
       autocomplete = "off"
-      placeholder='example'
+      placeholder= "Escribe Aquí"
       value={search}
       onChange={(ev) => setsearch(ev.target.value)}>
       </input>
       <button tipe = "submit" className='boton'>
+        <p>Buscar</p>
         <i class = "bx bx-search"></i>
       </button>
     </div>
