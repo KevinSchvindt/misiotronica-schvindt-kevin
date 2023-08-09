@@ -11,6 +11,7 @@ function App()  {
   return (
     <BrowserRouter>
         <Routes>
+          
           <Route path='/' element= {<Inicio/>} />
           <Route path='/Venta' element= {<Venta/>} />
           <Route path='/AcercaDeNosotros' element= {<AcercaDeNosotros/>} />
