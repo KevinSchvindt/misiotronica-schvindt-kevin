@@ -1,0 +1,41 @@
+.productos {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffd2;
+    text-align: center;
+    
+}
+
+.productos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.productos .precio {
+    font-size: 18px;
+    color: green;
+    margin: 5px 0;
+}
+
+.productos h1 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.productos p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.productos i {
+    font-size: 24px;
+    color: #3498db;
+    cursor: pointer;
+}
+

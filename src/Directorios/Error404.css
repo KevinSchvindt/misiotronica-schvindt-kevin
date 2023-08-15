@@ -1,0 +1,11 @@
+.err404{
+
+width: 100%;
+height: 100vh;
+object-fit: cover;
+}
+
+.Error404 h1{
+    color: white;
+    text-align: center;
+}
