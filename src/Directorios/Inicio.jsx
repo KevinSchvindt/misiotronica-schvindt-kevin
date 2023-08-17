@@ -1,12 +1,17 @@
 import React from 'react'
-import Burguer from '../Componentes/Burguer'
-import FONDO from '../Imagenes/FONDO.jpg'
+import Navegacion from '../Componentes/Navegacion'
+import Redes from '../Componentes/Redes'
+import './Inicio.css'
+
+
  
 const Inicio = () => {
   return (
-    <div>
-      <Burguer/>
-      <img src={FONDO} alt="FONDO" />
+    <div className='Inicio'>
+      <Navegacion/>
+      <h1>BIENVENIDOS</h1>
+      <Redes/>
+     
     </div>
   )
 }

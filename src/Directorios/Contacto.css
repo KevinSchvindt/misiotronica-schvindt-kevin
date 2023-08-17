@@ -1,0 +1,14 @@
+.contacto p{
+    color: white;
+
+    }
+.contacto h1{
+    color: white;
+    text-align: center;
+}
+.contacto{
+    text-align: center;
+    align-items: center;
+    display: block;
+    overflow: auto;
+}

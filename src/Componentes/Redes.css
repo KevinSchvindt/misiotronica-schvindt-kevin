@@ -1,0 +1,38 @@
+.Redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 0; 
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+  }
+  
+  .Redes p {
+    font-size: 200%;
+    margin-bottom: 0;
+
+  }
+  
+  .Redes a {
+    text-decoration: none;
+    color: #333;
+    font-size: 10%;
+    margin-bottom: 0;
+  }
+  
+  .Facebook {
+    color: white;
+    font-size: 5rem;
+  }
+  
+  .Instagram {
+    color: #e1306c;
+    font-size: 5rem;
+  }
+  
+  .Whatsapp {
+    color: #25d366;
+    font-size: 5rem;
+  }

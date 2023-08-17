@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Formulario.css'
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -23,10 +24,10 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div className='Formulario'>
       <h2>Contacto</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
+      <form  onSubmit={handleSubmit}>
+        <div >
           <label>Nombre:</label>
           <input
             type="text"
@@ -35,6 +36,7 @@ function ContactForm() {
             onChange={handleChange}
             required
           />
+          <label>Apellido:</label>
           <input
             type="text"
             name="lastName"

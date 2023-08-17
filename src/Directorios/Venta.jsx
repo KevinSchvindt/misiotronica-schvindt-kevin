@@ -1,22 +1,26 @@
 import React from 'react'
 import Productos from '../Componentes/Productos'
-import Burguer from '../Componentes/Burguer'
-import Barra from '../Componentes/Barra'
+import Navegacion from '../Componentes/Navegacion'
+import BarradeBusqueda from '../Componentes/BarradeBusqueda'
 import ProductosLista from '../BaseDatos/ProductosLista'
+import './Venta.css'
 
 const Venta = () => {
   return (
-    <div>
-            <Burguer/>
-           <Barra/>
+    <>            <Navegacion/>
+        <div className='Venta'>
+           <BarradeBusqueda/>
            {ProductosLista.map(function (elemento){
-            return (<Productos 
-              imagen={elemento.imagen}
+            return (
+            <li >
+            <Productos 
+              imagen= {elemento.imagen}
               precio={elemento.precio}
               nombre={elemento.nombre}
-              descripccion={elemento.descripccion}
-              />);})};
+              descripcion={elemento.descripcion}
+              /></li>);})};
     </div>
+    </>
    
   )
 }

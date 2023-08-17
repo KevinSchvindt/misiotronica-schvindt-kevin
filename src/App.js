@@ -7,19 +7,25 @@ import Inicio from './Directorios/Inicio';
 import Venta from './Directorios/Venta';
 import './App.css';
 
+
+
 function App()  {
   return (
-    <BrowserRouter>
-        <Routes>
-          
-          <Route path='/' element= {<Inicio/>} />
-          <Route path='/Venta' element= {<Venta/>} />
-          <Route path='/AcercaDeNosotros' element= {<AcercaDeNosotros/>} />
-          <Route path='/Contacto' element= {<Contacto/>} />
-          <Route path='*' element= {<Error404/>} />
-        </Routes>
-    </BrowserRouter>
-
+    <>
+       <div className='app-container' >
+      
+        <BrowserRouter>
+            <Routes>
+              <Route path='/' element= {<Inicio/>} />
+              <Route path='/Venta' element= {<Venta/>} />
+              <Route path='/AcercaDeNosotros' element= {<AcercaDeNosotros/>} />
+              <Route path='/Contacto' element= {<Contacto/>} />
+              <Route path='*' element= {<Error404/>} />
+            </Routes>
+        </BrowserRouter>
+       
+        </div>
+    </>
         
   );
 }
